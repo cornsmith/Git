@@ -92,3 +92,10 @@ git merge branch_name
 # To cancel a merge
 git merge --abort
 ```
+
+#### Syncing a fork
+```sh
+git fetch upstream
+git checkout master
+git merge upstream/master
+```
