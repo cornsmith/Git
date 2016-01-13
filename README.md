@@ -11,8 +11,12 @@ git config --global user.email "email"
 # create new local repo
 git init
 
+# adding a remote and verifying
+git remote add origin https://github.com/username/repo.git
+git remote -v
+
 # clone existing repo to local
-git clone http://github.com/repo.git local_name
+git clone http://github.com/username/repo.git local_name
 ```
 
 #### Staging
