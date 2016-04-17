@@ -103,3 +103,11 @@ git fetch upstream
 git checkout master
 git merge upstream/master
 ```
+
+#### Updating
+```sh
+git fetch
+git add -A
+git commit -m "message"
+git push origin branch_name
+```
